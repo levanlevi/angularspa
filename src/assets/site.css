@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Akkuratlight;
+  src: url('AkkuratLight.woff2');
+}
+/* https://www.blacklabel.pl/ */
+@font-face {
+  font-family: Akkurat;
+  src: url('Akkurat.woff2');
+}
+
+* {
+  font-family: Akkurat, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Akkurat, sans-serif; 
+}
+
+#container {
+  color: #333;
+  font-family: Akkurat, sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  width: 70%;
+  float: none;
+}
+
+#container > div
+{
+  padding: 2em;
+}
+
+#container > div:first-child {
+  background-color: #FE1;
+  padding-top:0.5em;
+}
+
+.l{
+    font-size: 2em;
+}
+
+.m{
+  font-size: 1.2em;
+}
+
+.s{
+  font-size: 0.7em;
+}
+
+.upper{
+  text-transform: uppercase;
+  font-family: 'Akkurat';
+}
+
+.bolder{
+  font-weight: 990;
+}
+
+.right{
+  float:right;
+}
+
+.exp-text{
+  font-family: Akkuratlight, sans-serif;
+}
+
+.exp-text li{
+  font-family: Akkuratlight, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+  font-family: Akkuratlight, sans-serif;
+  font-size:inherit;
+}

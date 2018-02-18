@@ -1,0 +1,79 @@
+* {
+    font-family: Akkurat, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #fff;
+    font-family: Akkurat, sans-serif; 
+  }
+  
+  #container {
+    color: #333;
+    font-family: Akkurat, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    width: 70%;
+    float: none;
+  }
+  
+  #container > div
+  {
+    padding: 2em;
+    padding-bottom: 0xp;
+  }
+
+  #container > div > p:last-child
+  {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #container > div:first-child {
+    background-color: #FE1;
+    padding-top:0.5em;
+  }
+  
+  .l{
+      font-size: 2em;
+  }
+  
+  .m{
+    font-size: 1.2em;
+  }
+  
+  .s{
+    font-size: 0.7em;
+  }
+  
+  .upper{
+    text-transform: uppercase;
+    font-family: 'Akkurat';
+  }
+  
+  .bolder{
+    font-weight: 990;
+  }
+  
+  .right{
+    float:right;
+  }
+  
+  .exp-text p {
+    font-family: Akkuratlight, sans-serif;
+  }
+  
+  .exp-text li{
+    font-family: Akkuratlight, sans-serif;
+  }
+  .title-t{
+    font-family: Akkurat, sans-serif;
+    font-weight: 900;
+  }
+  
+  a {
+    text-decoration: none;
+    color:inherit;
+    font-family: Akkuratlight, sans-serif;
+    font-size:inherit;
+  }
